@@ -1,5 +1,5 @@
 # This solution is more like an example solution as there is nodataset to train on but gives an overview how training can be done
-#This program isn't executable and is related to the question 2 of the assessment
+# This program isn't executable and is related to the question 2 of the assessment
 
 import torch.optim as optim
 model = MultiTaskSentenceTransformer()
@@ -62,4 +62,5 @@ for epoch in range(num_epochs):
 
 This setup encapsulates the typical considerations and structural elements of an MTL training loop in PyTorch, 
 balancing learning across tasks while providing flexibility to adjust task priorities as needed.
+
 """"

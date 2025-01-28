@@ -28,4 +28,4 @@ pip install -r requirements.txt #takes a few minutes
 python .\sentence-transformer-1.py
 python .\sentence-transformer-2.py
 
-#the last file is training loop gives an overview of how training loop can be implemented on a MTL task
+#the File training_loop_mtl gives an overview of how training loop can be implemented on the MTL task
